@@ -164,3 +164,28 @@ input.ng-invalid.ng-dirty {
    text-decoration: none;
    margin-left: 40px;
 }
+
+.bestDish .button {
+    display: inline-block;
+    background-color:#cb202d;
+    color: white;
+    padding: 0px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.macros {
+    color: white;
+    background-color: #5BA829;
+    position: absolute;
+    top: 140px;
+    right: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    margin-left: 100px;
+    width: 90px;
+    text-align: center;
+}
