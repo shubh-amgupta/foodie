@@ -178,14 +178,8 @@ input.ng-invalid.ng-dirty {
 .macros {
     color: white;
     background-color: #5BA829;
-    position: absolute;
-    top: 140px;
-    right: 20px;
-    padding: 0.5rem 1rem;
-    font-size: 18px;
-    border-radius: 4px;
-    letter-spacing: 2px;
-    margin-left: 100px;
     width: 90px;
     text-align: center;
+    height: 19px;
+    border-radius: 3px;
 }

@@ -27,20 +27,19 @@
            <div><small>Cost for Two: </small></div>
            <div><small>Hours:</small></div>
            <div ng-if="restaurant.bestDish"><small>Recommended: </small></div>
+           <div ng-if="macros"><small>Rich in: </small></div>
        </div>
        <div class="value">
            <div>{{restaurant.cuisines}}</div>
-           <div ng-if="macros" class="macros pull-right">
-              {{macros}}
-           </div>
            <div>₹{{restaurant.cost | number}}</div>
            <div>{{restaurant.hours}}</div>
            <div class="bestDish" ng-if="restaurant.bestDish">
    	        <span>{{restaurant.bestDish.name}} </span>
    	        <div class="button" ng-click="getIngredients(restaurant.bestDish.image)">Get Ingredients</div>
-              <br />
-              <!-- <img class="bestDishImage" ng-src='restaurant.bestDish.image'></div> -->
    		</div>
+         <div ng-if="macros" class="macros">
+            {{macros}}
+         </div>
        </div>
    </div>
     <div class="rating">
@@ -52,8 +51,5 @@
              {{ingredient}}
           </li>
        </ol>
-   </div>
-   <div ng-if="macros" class="macros">
-      {{macros}}
    </div>
 </div>
